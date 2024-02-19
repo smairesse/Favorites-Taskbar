@@ -6,23 +6,20 @@
         System tray favorites for Windows.
 
     .DESCRIPTION
-        A longer description.
+        This tool aims to fill the void left by the disappearance of the custom toolbar from the system tray.
+        It allows quick and personalized access to your most frequently used applications and files.
 
     .PARAMETER path
-        Description of each of the parameters.
-        Note:
-        To make it easier to keep the comments synchronized with changes to the parameters,
-        the preferred location for parameter documentation comments is not here,
-        but within the param block, directly above each parameter.
+        Location of the root personalized favorites folder
 
     .PARAMETER debug
-        Description of each of the parameters.
+        Enable debug mode.
 
     .INPUTS
-        Description of objects that can be piped to the script.
+        folders and favorites files tree (prefer shortcuts) to display in the system tray
 
     .OUTPUTS
-        Description of objects that are output by the script.
+        Favorites menu bar accessible from the system tray.
 
     .EXAMPLE
         Example of how to run the script.
