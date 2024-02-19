@@ -31,7 +31,7 @@
         Links to further documentation.
 
     .NOTES
-        Detail on what the script does, if this is needed.
+        Author: Stéphane MAIRESSE
 
 #>
 
