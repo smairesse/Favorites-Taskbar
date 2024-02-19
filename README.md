@@ -1,6 +1,8 @@
 # system-tray-favorites
 System tray favorites for Windows
 
+![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
+
 ## Start
 On the console DOS
 ```
@@ -37,7 +39,3 @@ If you want customize, you can put the following files in the folder **Icons**:
 * Reload function : **refresh.png**
 * Autostartup is ON: **autostartup_ON.png**
 * Autostartup is OFF: **autostartup_OFF.png**
-
-## Example
-![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
-
