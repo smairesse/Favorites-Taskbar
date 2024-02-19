@@ -27,7 +27,7 @@ Allows you to directly access to the favorites root directory
 Allows you to reload the favorites
 
 ### Exit
-Allows you to exit the sytem try favorites
+Allows you to exit the sytem tray favorites
 
 ## Customization
 If you want customize, you can put the following files in the folder **Icons**:
