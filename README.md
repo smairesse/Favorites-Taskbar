@@ -6,7 +6,7 @@ System tray favorites for Windows
 ## Start
 On the console DOS
 ```
-Powershell.exe -executionpolicy remotesigned -File ".\systemTrayFavorites.ps1"
+Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\systemTrayFavorites.ps1"
 ```
 or if you want to specify a different location for the favorites:
 ```
