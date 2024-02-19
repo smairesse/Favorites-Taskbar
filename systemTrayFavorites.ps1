@@ -1,6 +1,40 @@
 #
 # SystemTrayFavorites.ps1
 #
+<#
+    .SYNOPSIS
+        System tray favorites for Windows.
+
+    .DESCRIPTION
+        A longer description.
+
+    .PARAMETER path
+        Description of each of the parameters.
+        Note:
+ ¬† ¬† ¬† ¬†To make it easier to keep the comments synchronized with changes to the parameters,
+        the preferred location for parameter documentation comments is not here,
+        but within the param block, directly above each parameter.
+
+    .PARAMETER debug
+        Description of each of the parameters.
+
+    .INPUTS
+        Description of objects that can be piped to the script.
+
+    .OUTPUTS
+        Description of objects that are output by the script.
+
+    .EXAMPLE
+        Example of how to run the script.
+
+    .LINK
+        Links to further documentation.
+
+    .NOTES
+        Detail on what the script does, if this is needed.
+
+#>
+
 param (
     # location of the favorites
     [string]$path,
@@ -188,7 +222,7 @@ function Make-Links {
                     write-debug $_.Exception.Message
 
                     $Message = [String] $target + ": "+ $_.Exception.Message
-                    if ($_.Exception.Message -ne "Impossible díexÈcuter complËtement cette commande car le systËme ne trouve pas toutes les informations requises.") {
+                    if ($_.Exception.Message -ne "Impossible d‚Äôex√©cuter compl√®tement cette commande car le syst√®me ne trouve pas toutes les informations requises.") {
                         Notify -title 'SystemTrayFavorites' -text $Message -milliseconds 10000 -icon 'Error'
                     }
                     write-error $Message
@@ -232,8 +266,8 @@ if ($path) {
         $FavoritesPath = $path
     } else {
         $FavoritesPath = $path
-        $MessageboxTitle = ìSystemTrayFavoritesî
-        $Messageboxbody = ì$path not foundî
+        $MessageboxTitle = ‚ÄúSystemTrayFavorites‚Äù
+        $Messageboxbody = ‚Äú$path not found‚Äù
         $ButtonType = [System.Windows.MessageBoxButton]::Ok
         $MessageIcon = [System.Windows.MessageBoxImage]::Error
         [System.Windows.MessageBox]::Show($Messageboxbody,$MessageboxTitle,$ButtonType,$MessageIcon) | out-null
