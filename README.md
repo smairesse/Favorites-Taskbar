@@ -23,4 +23,6 @@ If you want customize, you can put the following files in the folder **Icons**:
 * Autostartup is OFF: **autostartup_OFF.png**
 
 ## Example
-![alt text](https://github.com/smairesse/system-tray-favorites/main/systemTrayFavorites.png?raw=true)
+![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
+![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/params.png?raw=true)
+
