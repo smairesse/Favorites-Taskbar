@@ -4,7 +4,7 @@ System tray favorites for Windows
 ![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
 
 ## Start
-On the console DOS
+You can use **systemTrayFavorites.bat** or in the console DOS
 ```
 Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\systemTrayFavorites.ps1"
 ```
