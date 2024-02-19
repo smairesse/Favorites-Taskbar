@@ -1,6 +1,3 @@
-#
-# SystemTrayFavorites.ps1
-#
 <#
     .SYNOPSIS
         System tray favorites for Windows.
@@ -25,11 +22,11 @@
         C:> Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File "%~dp0\systemTrayFavorites.ps1".
 
     .LINK
-        Links to further documentation.
+        https://github.com/smairesse/system-tray-favorites/blob/smairesse-patch-1/README.md
 
     .NOTES
+        File: SystemTrayFavorites.ps1
         Author: Stéphane MAIRESSE
-
 #>
 
 param (
