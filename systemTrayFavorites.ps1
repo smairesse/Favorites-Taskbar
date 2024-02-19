@@ -22,7 +22,7 @@
         Favorites menu bar accessible from the system tray.
 
     .EXAMPLE
-        Example of how to run the script.
+        C:> Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File "%~dp0\systemTrayFavorites.ps1".
 
     .LINK
         Links to further documentation.
