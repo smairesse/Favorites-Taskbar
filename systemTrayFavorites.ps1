@@ -1,6 +1,34 @@
-#
-# SystemTrayFavorites.ps1
-#
+<#
+    .SYNOPSIS
+        System tray favorites for Windows.
+
+    .DESCRIPTION
+        This tool aims to fill the void left by the disappearance of the custom toolbar from the system tray.
+        It allows quick and personalized access to your most frequently used applications and files.
+
+    .PARAMETER path
+        Location of the root personalized favorites folder
+
+    .PARAMETER debug
+        Enable debug mode.
+
+    .INPUTS
+        folders and favorites files tree (prefer shortcuts) to display in the system tray
+
+    .OUTPUTS
+        Favorites menu bar accessible from the system tray.
+
+    .EXAMPLE
+        C:> Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File "%~dp0\systemTrayFavorites.ps1".
+
+    .LINK
+        https://github.com/smairesse/system-tray-favorites/blob/smairesse-patch-1/README.md
+
+    .NOTES
+        File: SystemTrayFavorites.ps1
+        Author: St√©phane MAIRESSE
+#>
+
 param (
     # location of the favorites
     [string]$path,
@@ -188,7 +216,7 @@ function Make-Links {
                     write-debug $_.Exception.Message
 
                     $Message = [String] $target + ": "+ $_.Exception.Message
-                    if ($_.Exception.Message -ne "Impossible díexÈcuter complËtement cette commande car le systËme ne trouve pas toutes les informations requises.") {
+                    if ($_.Exception.Message -ne "Impossible d‚Äôex√©cuter compl√®tement cette commande car le syst√®me ne trouve pas toutes les informations requises.") {
                         Notify -title 'SystemTrayFavorites' -text $Message -milliseconds 10000 -icon 'Error'
                     }
                     write-error $Message
@@ -232,8 +260,8 @@ if ($path) {
         $FavoritesPath = $path
     } else {
         $FavoritesPath = $path
-        $MessageboxTitle = ìSystemTrayFavoritesî
-        $Messageboxbody = ì$path not foundî
+        $MessageboxTitle = ‚ÄúSystemTrayFavorites‚Äù
+        $Messageboxbody = ‚Äú$path not found‚Äù
         $ButtonType = [System.Windows.MessageBoxButton]::Ok
         $MessageIcon = [System.Windows.MessageBoxImage]::Error
         [System.Windows.MessageBox]::Show($Messageboxbody,$MessageboxTitle,$ButtonType,$MessageIcon) | out-null
