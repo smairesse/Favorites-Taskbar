@@ -2,9 +2,11 @@
 System tray favorites for Windows
 
 ## Start
+```
 Powershell.exe -executionpolicy remotesigned -File ".\systemTrayFavorites.ps1"
 
 Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\systemTrayFavorites.ps1" -path <root directory path of favorites>
+```
 
 ## Customization
 If you want customize, you can put the following files in the folder **Icons**:
