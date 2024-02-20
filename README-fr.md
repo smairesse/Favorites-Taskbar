@@ -32,7 +32,7 @@ Permet de recharger les favoris
 Vous permet de quitter les favoris de la barre d’état système
 
 ## Personnalisation
-Si vous souhaitez personnaliser, vous pouvez mettre les fichiers suivants dans le dossier **Icons** :
+Si vous souhaitez personnaliser les icônes, vous pouvez mettre les fichiers suivants dans le dossier **Icons** :
 * **menu.ico** Icône de la barre d'état systeme
 * **params.png** Icône du menu Params
 * **exit.png** Icône de la fonction Exit
