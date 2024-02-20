@@ -21,7 +21,7 @@ Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\system
 Permet d'activer ou de désactiver le lancement automatique au démarrage
 
 ### Config
-Permet d'accéder directement au répertoire racine des favoris
+Permet d'accéder directement au répertoire racine de vos favoris
 
 ### Restart
 Permet de recharger les favoris
