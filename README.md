@@ -18,7 +18,7 @@ Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\system
 ![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/params.png?raw=true)
 
 ### AutoStart
-Allows you to activate or desactive the auto-launch at startup
+Allows you to enable or disable auto-launch at startup
 
 ### Config
 Allows you to directly access to the favorites root directory
