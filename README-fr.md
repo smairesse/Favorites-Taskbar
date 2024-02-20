@@ -40,4 +40,4 @@ Si vous souhaitez personnaliser les icônes, vous pouvez mettre les fichiers sui
 * **config.png** Icône de la fonction d'accès aux favoris
 * **refresh.png** Icone de la fonction de rechargement des favoris
 * **autostartup_ON.png** Démarrage automatique activé
-* **autostartup_OFF.png** Demarrage automatique onactif
+* **autostartup_OFF.png** Démarrage automatique inactif
