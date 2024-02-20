@@ -34,10 +34,10 @@ Vous permet de quitter les favoris de la barre d’état système
 ## Personnalisation
 Si vous souhaitez personnaliser, vous pouvez mettre les fichiers suivants dans le dossier **Icons** :
 * **menu.ico** Icône de la barre d'état systeme
-* **params.png** Icône du menu Params: 
-* Icône de la fonction Exit: **exit.png**
-* Icônes des sous-menus: **submenu.png**
-* Icône de la fonction d'accès aux favoris : **config.png**
-* Icone de la fonction de rechargement des favoris: **refresh.png**
-* Démarrage automatique activé: **autostartup_ON.png**
-* Demarrage automatique onactif: **autostartup_OFF.png**
+* **params.png** Icône du menu Params
+* **exit.png** Icône de la fonction Exit
+* **submenu.png** Icônes des sous-menus
+* **config.png** Icône de la fonction d'accès aux favoris
+* **refresh.png** Icone de la fonction de rechargement des favoris
+* **autostartup_ON.png** Démarrage automatique activé
+* **autostartup_OFF.png** Demarrage automatique onactif
