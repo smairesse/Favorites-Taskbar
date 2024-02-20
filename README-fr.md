@@ -10,7 +10,7 @@ Ou dans la console DOS:
 ```
 Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\systemTrayFavorites.ps1"
 ```
-Ou si vous souhaitez spécifier un emplacement différent pour vos favoris:
+Si vous souhaitez spécifier un emplacement différent pour vos favoris:
 ```
 Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\systemTrayFavorites.ps1" -path <root directory path of favorites>
 ```
