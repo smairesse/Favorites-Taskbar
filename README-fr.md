@@ -33,8 +33,8 @@ Vous permet de quitter les favoris de la barre d’état système
 
 ## Personnalisation
 Si vous souhaitez personnaliser, vous pouvez mettre les fichiers suivants dans le dossier **Icons** :
-* Icône de la barre d'état systeme: **menu.ico**
-* Icône du menu Params: **params.png**
+* **menu.ico** Icône de la barre d'état systeme
+* **params.png** Icône du menu Params: 
 * Icône de la fonction Exit: **exit.png**
 * Icônes des sous-menus: **submenu.png**
 * Icône de la fonction d'accès aux favoris : **config.png**
