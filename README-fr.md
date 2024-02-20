@@ -1,5 +1,5 @@
 # system-tray-favorites
-Accès rapide aux favoris depuis la barre d'état système de Windows
+Accès rapide à vos favoris depuis la barre des tâches de Windows
 
 ![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
 
