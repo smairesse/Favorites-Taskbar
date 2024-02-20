@@ -13,7 +13,7 @@ or if you want to specify a different location for the favorites:
 Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\systemTrayFavorites.ps1" -path <root directory path of favorites>
 ```
 
-## Functions of Params menu
+## **Param** menu functions
 
 ![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/params.png?raw=true)
 
