@@ -3,6 +3,8 @@ Quick access to favorites from the Windows system tray
 
 ![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
 
+Windows 11 has abandoned the custom toolbar available from the taskbar. This tool will allow you to regain this functionality and quick access to your shortcuts.
+
 ## Start
 You can use **systemTrayFavorites.bat** or in the console DOS
 ```
