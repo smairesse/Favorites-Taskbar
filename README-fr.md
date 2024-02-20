@@ -29,7 +29,7 @@ Permet d'accéder directement au répertoire racine de vos favoris
 Permet de recharger les favoris
 
 ### Exit
-Vous permet de quitter les favoris de la barre d’état système
+Permet de quitter les favoris de la barre d’état système
 
 ## Personnalisation
 Si vous souhaitez personnaliser les icônes, vous pouvez mettre les fichiers suivants dans le dossier **Icons** :
