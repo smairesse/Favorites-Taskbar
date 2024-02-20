@@ -3,6 +3,8 @@ Accès rapide aux favoris depuis la barre d'état système de Windows
 
 ![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
 
+Windows 11 a abandonné la barre d’outils personnalisée disponible à partir de la barre des tâches. Cet outil vous permettra de retrouver cette fonctionnalité et l’accès rapide à vos raccourcis.
+
 ## Démarrer
 Vous pouvez utiliser **systemTrayFavorites.bat**
 
