@@ -8,7 +8,7 @@ You can use **systemTrayFavorites.bat** or in the console DOS
 ```
 Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\systemTrayFavorites.ps1"
 ```
-or if you want to specify a different location for the favorites:
+or if you want to specify a different location for your favorites:
 ```
 Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\systemTrayFavorites.ps1" -path <root directory path of favorites>
 ```
