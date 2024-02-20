@@ -1,5 +1,5 @@
 # system-tray-favorites
-System tray favorites for Windows
+Quick access to favorites from the Windows system tray
 
 ![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
 
