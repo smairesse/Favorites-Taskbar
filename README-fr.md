@@ -4,7 +4,7 @@ Accès rapide aux favoris depuis la barre d'état système de Windows
 ![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
 
 ## Démarrer
-You can use **systemTrayFavorites.bat** or in the console DOS
+Vous pouvez utiliser **systemTrayFavorites.bat** ou dans la console DOS:
 ```
 Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File ".\systemTrayFavorites.ps1"
 ```
