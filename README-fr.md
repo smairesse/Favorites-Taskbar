@@ -24,18 +24,18 @@ Permet d'activer ou de désactiver le lancement automatique au démarrage
 Permet d'accéder directement au répertoire racine des favoris
 
 ### Restart
-Allows you to reload the favorites
+Permet de recharger les favoris
 
 ### Exit
-Allows you to exit the sytem tray favorites
+Vous permet de quitter les favoris de la barre d’état système
 
 ## Customization
-If you want customize, you can put the following files in the folder **Icons**:
-* SystemTrayFavorites icon: **menu.ico**
-* Menu Params: **params.png**
-* Exit function: **exit.png**
-* Submenu: **submenu.png**
-* Access to favorites folder : **config.png**
-* Reload function : **refresh.png**
-* Autostartup is ON: **autostartup_ON.png**
-* Autostartup is OFF: **autostartup_OFF.png**
+Si vous souhaitez personnaliser, vous pouvez mettre les fichiers suivants dans le dossier **Icons** :
+* Icône de la barre d'état systeme: **menu.ico**
+* Icône du menu Params: **params.png**
+* Icône de la fonction Exit function: **exit.png**
+* Icônes des sous-menus: **submenu.png**
+* Icône de la fonction d'accès aux favoris : **config.png**
+* Icone de la fonction de rechargement des favoris: **refresh.png**
+* Démarrage automatique activé: **autostartup_ON.png**
+* Demarrage automatique onactif: **autostartup_OFF.png**
