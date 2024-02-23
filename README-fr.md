@@ -1,4 +1,4 @@
-# system-tray-favorites
+# Favorites-Taskbar
 Accès rapide à vos favoris depuis la barre des tâches de Windows
 
 ![alt text](https://github.com/smairesse/system-tray-favorites/blob/main/Readme/examples.png?raw=true)
